@@ -11,7 +11,10 @@
     "autoload": {
         "psr-4": {
             "Neliserp\\Inventory\\": "src/"
-        }
+        },
+        "classmap": [
+            "src/database/factories"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
