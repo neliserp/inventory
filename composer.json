@@ -1,0 +1,28 @@
+{
+    "name": "neliserp/inventory",
+    "description": "Inventory package.",
+    "license": "MIT",
+    "require": {
+        "illuminate/support": "^7.4"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neliserp\\Inventory\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Neliserp\\Inventory\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Neliserp\\Inventory\\InventoryServiceProvider"
+            ]
+        }
+    }
+}
