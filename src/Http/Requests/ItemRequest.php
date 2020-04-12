@@ -1,6 +1,6 @@
 <?php
 
-namespace Neliserp\Inventory;
+namespace Neliserp\Inventory\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Validation\Rule;

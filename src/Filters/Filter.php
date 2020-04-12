@@ -1,6 +1,6 @@
 <?php
 
-namespace Neliserp\Inventory;
+namespace Neliserp\Inventory\Filters;
 
 abstract class Filter
 {

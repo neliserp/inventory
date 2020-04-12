@@ -1,8 +1,12 @@
 <?php
 
-namespace Neliserp\Inventory;
+namespace Neliserp\Inventory\Http\Controllers;
 
 use Illuminate\Routing\Controller;
+use Neliserp\Inventory\Item;
+use Neliserp\Inventory\Filters\ItemFilter;
+use Neliserp\Inventory\Http\Requests\ItemRequest;
+use Neliserp\Inventory\Http\Resources\ItemResource;
 
 class ItemController extends Controller
 {

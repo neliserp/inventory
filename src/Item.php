@@ -3,6 +3,7 @@
 namespace Neliserp\Inventory;
 
 use Illuminate\Database\Eloquent\Model;
+use Neliserp\Inventory\Filters\ItemFilter;
 
 class Item extends Model
 {

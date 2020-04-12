@@ -1,6 +1,6 @@
 <?php
 
-namespace Neliserp\Inventory;
+namespace Neliserp\Inventory\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
