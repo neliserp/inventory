@@ -1,22 +1,13 @@
 <?php
 
-namespace Neliserp\Inventory\Tests;
+namespace Neliserp\Inventory\Tests\Feature;
 
-use Orchestra\Testbench\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-
+use Neliserp\Core\CrudTest;
 use Neliserp\Inventory\InventoryServiceProvider;
 use Neliserp\Inventory\Item;
 
-class ItemTest extends TestCase
+class ItemTest extends CrudTest
 {
-    use RefreshDatabase;
-
-    protected function setUp(): void
-    {
-        parent::setUp();
-    }
-
     protected function getPackageProviders($app)
     {
         return [

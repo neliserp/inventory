@@ -2,6 +2,8 @@
 
 namespace Neliserp\Inventory\Filters;
 
+use Neliserp\Core\Filters\Filter;
+
 class ItemFilter extends Filter
 {
     protected function code($code)

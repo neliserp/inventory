@@ -3,7 +3,8 @@
     "description": "Inventory package.",
     "license": "MIT",
     "require": {
-        "illuminate/support": "^7.4"
+        "illuminate/support": "^7.4",
+        "neliserp/core": "dev-master"
     },
     "require-dev": {
         "orchestra/testbench": "^5.1"
@@ -27,5 +28,13 @@
                 "Neliserp\\Inventory\\InventoryServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../core"
+        }
+    ]
 }
